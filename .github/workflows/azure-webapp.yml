@@ -26,7 +26,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "cicd-demo-app"
+          app-name: "Github-flask-harjoitus"
           slot-name: "production"
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISHPROFILE }}
           package: .
