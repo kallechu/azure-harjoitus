@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Tervetuloa Azure CI/CD -harjoitukseen!"
+    return "Tervetuloa Azure CI/CD -harjoitukseen! v2"
 
 if __name__ == "__main__":
     app.run()
